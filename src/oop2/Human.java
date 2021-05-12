@@ -7,14 +7,14 @@ package oop2;
  */
 public class Human {
     
-    private String name = "Havana";
+    private String name = "";
     
     public String getName(){
         return name;
     }
     
     public void setName(String name){
-        System.out.println("Hello "+name);
+        this.name = name;
     }
     /*public void Hello(){
         System.out.println("Hello "+name);
