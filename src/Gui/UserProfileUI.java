@@ -37,6 +37,7 @@ public class UserProfileUI extends javax.swing.JFrame {
         Field_Email = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea_Address = new javax.swing.JTextArea();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -74,7 +75,13 @@ public class UserProfileUI extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(230, 190, 209, 67);
 
-        setSize(new java.awt.Dimension(616, 439));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("เพิ่มผู้ใช้งาน");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(240, 60, 200, 30);
+
+        setSize(new java.awt.Dimension(637, 439));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -122,6 +129,7 @@ public class UserProfileUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea_Address;
     // End of variables declaration//GEN-END:variables
